@@ -104,39 +104,7 @@ Result:
 ```
 { "c": 5 }
 ```
-===================================================================
-# Date Utility Functions (DataWeave)
-===================================================================
 
-This module provides helper functions for converting and generating standardized date formats commonly used in enterprise integration flows.
-
-## Functions Included
-
-### 1. `toISO(dateString)`
-Converts `"MM/dd/yyyy"` format into ISO `"yyyy-MM-dd"` format.
-
-#### Example:
-```dw
-toISO("01/25/2025")
-```
-Result:
-```
-"2025-01-25"
-```
-
----
-
-### 2. `currentTimestamp()`
-Returns the **current timestamp** in ISO format.
-
-#### Example:
-```dw
-currentTimestamp()
-```
-Possible Result:
-```
-"2025-01-25T14:33:20Z"
-```
 ==============================================================
 # String Utility Functions (DataWeave)
 ==============================================================
