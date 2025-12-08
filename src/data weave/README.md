@@ -1,5 +1,6 @@
 # DataWeave Utilities
 This folder will contain reusable DataWeave functions and transformation helpers.
+
 ======================================================================
 # Number Utility Functions (DataWeave)
 ======================================================================
@@ -181,9 +182,9 @@ Result:
 ```
 "HELLO"
 ```
-===========================================================================================================================================================================
+===================================================================
 # Error Utility Functions (DataWeave)
-===========================================================================================================================================================================
+===================================================================
 This module provides safe execution helpers to prevent flow-breaking errors during transformations, especially useful with unpredictable payloads.
 
 ## Functions Included
