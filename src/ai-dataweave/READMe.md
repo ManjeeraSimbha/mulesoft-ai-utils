@@ -20,3 +20,13 @@ Covered concepts:
 • Contract-aware transformations
 
 These patterns align with real MuleSoft production practices.
+
+3. This module demonstrates how AI-generated DataWeave mappings
+should be wrapped with validation and type enforcement before
+being used in production MuleSoft flows.
+
+Key ideas:
+• Treat AI output as draft logic
+• Enforce required fields explicitly
+• Apply defaults and type safety
+• Fail fast for invalid payloads
